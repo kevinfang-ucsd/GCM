@@ -19,7 +19,7 @@ public class App {
     public static Content createContent() {
         Content c = new Content();
 
-        c.addRegId("APA91bHHv4xSM1a7moHADVIXJPfHcrZ1oWUiir-oxPUkOkxz0z7A0idv0KlijBB590lJN3eu1hL29Ibbt_Ekw86WwKam341cKBrpHopO-08jJScapYJt2HjIXNkn2Dw7QzCtar2qofV3");
+        c.addRegId("APA91bFzTrqxwWwEKi72eHULKQVDWlpglFgXJ3joMbCa3J8RgKZZTj3KZc8zqh3YPkSYjhQK9rDImKfBgLxSB6rmq6Z_e0XfXWERdUODsSlQHXnsQRk1Y_JegBnnvL9fznbr1RHH_nyD");
 
         c.createData("Working!!", "Test message");
 
