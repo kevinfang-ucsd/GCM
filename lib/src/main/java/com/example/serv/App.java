@@ -10,7 +10,7 @@ public class App {
 
         System.out.println("Sending POST to GCM");
 
-        String apiKey = "AIzaSyC_oi5v-QwyHirz_xbDzwcdcAROWrZ-xwc";
+        String apiKey = "AIzaSyAFoYzxAOStqAkBReqedUwmDNbPuo2r8jU";
         Content content = createContent();
 
         Post2Gcm.post(apiKey, content);
@@ -19,7 +19,7 @@ public class App {
     public static Content createContent() {
         Content c = new Content();
 
-        c.addRegId("APA91bGB-ZbeyCtLP_QRNQE5zu4Y-1LgRlTFiIMh2vDrhtgVwL5vTo5DYiE_YFo4ftOjxk4Nihykt_LSTPL9T_7FX64I7EQoe-l_eQ_4-T36BwAdOgAioktNUE1fwFoaPe6fdzQ1Aayx");
+        c.addRegId("APA91bHHv4xSM1a7moHADVIXJPfHcrZ1oWUiir-oxPUkOkxz0z7A0idv0KlijBB590lJN3eu1hL29Ibbt_Ekw86WwKam341cKBrpHopO-08jJScapYJt2HjIXNkn2Dw7QzCtar2qofV3");
 
         c.createData("Working!!", "Test message");
 
